@@ -4,7 +4,7 @@ import GoogleAuth from './GoogleAuth';
 
 function Header() {
 	return (
-		<div className="ui secondary pointing menu">
+		<div className="ui secondary pointing menu" style={{ marginTop: '5px' }}>
 			<Link to="/" className="item">
 				Streamy
 			</Link>
